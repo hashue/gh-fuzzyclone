@@ -1,5 +1,10 @@
 #! /bin/bash
 set -e
 
-gh repo clone $(gh repo list $1 --json nameWithOwner -q '.[].nameWithOwner' | fzf) "${@:2}"
+REPO=$(gh repo list $1 --json nameWithOwner -q '.[].nameWithOwner' | fzf)
 
+if [ $? -ne 0 ];then
+  exit 1
+fi
+
+gh repo clone "${REPO}" "${@:2}"
