@@ -1,18 +1,30 @@
 # gh fuzzyclone
 
-A [gh](https://github.com/cli/cli) extension to clone use fzf
+A [gh](https://github.com/cli/cli) extension to clone GitHub repositories using
+[fzf](https://github.com/junegunn/fzf#readme).
 
-## Require
-- fzf
+## Requirements
+
+- [fzf](https://github.com/junegunn/fzf#readme)
+
 ## Usage
-```
+
+```sh
 gh fuzzyclone
 ```
 
-## Installation
+You can also pass in a username like so
+
+```sh
+gh fuzzyclone hashue
 ```
+
+## Installation
+
+```sh
 gh extension install hashue/gh-fuzzyclone
 ```
 
 ## Author
+
 Hasu
