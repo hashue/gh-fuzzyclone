@@ -21,7 +21,9 @@ gh fuzzyclone hashue
 
 ## Installation
 
-`gh extension install hashue/gh-fuzzyclone`
+```sh
+gh extension install hashue/gh-fuzzyclone
+```
 
 ## Author
 
