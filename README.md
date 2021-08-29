@@ -5,7 +5,16 @@ A [gh](https://github.com/cli/cli) extension to clone GitHub repositories using
 
 ## Requirements
 
-- [fzf](https://github.com/junegunn/fzf#readme)
+You're expected to already have [fzf](https://github.com/junegunn/fzf#readme)
+installed for this extension to work.
+Please follow their [installation instructions](https://github.com/junegunn/fzf#installation)
+if you don't have it yet.
+
+## Installation
+
+```sh
+gh extension install hashue/gh-fuzzyclone
+```
 
 ## Usage
 
@@ -13,16 +22,11 @@ A [gh](https://github.com/cli/cli) extension to clone GitHub repositories using
 gh fuzzyclone
 ```
 
-You can also pass in a username like so
+By default, the extension only fetches repositories under your username.
+To get other repositories, you can pass in a username, like so:
 
 ```sh
 gh fuzzyclone hashue
-```
-
-## Installation
-
-```sh
-gh extension install hashue/gh-fuzzyclone
 ```
 
 ## Author
