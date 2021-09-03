@@ -31,7 +31,7 @@ gh fuzzyclone hashue
 
 If you want to use custom options (e.g. --limit),  you can set them like below.
 ``` 
-OPTS="--limit 100" gh fuzzyclone {orgname}
+OPTS="--limit 100" gh fuzzyclone
 ```
 ## Author
 
