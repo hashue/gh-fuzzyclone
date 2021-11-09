@@ -3,6 +3,8 @@
 A [gh](https://github.com/cli/cli) extension to clone GitHub repositories using
 [fzf](https://github.com/junegunn/fzf#readme).
 
+If you wanna use `ghq`, I recommend a very nice extension [gh-q](https://github.com/kawarimidoll/gh-q/) made by [kawarimidoll](https://github.com/kawarimidoll)
+
 ## Requirements
 
 You're expected to already have [fzf](https://github.com/junegunn/fzf#readme)
